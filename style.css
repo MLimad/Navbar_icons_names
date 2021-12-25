@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color:  #F5EEDC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+}
+
+nav{
+  background-color: #FF7777;
+  width: 400px;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li{
+  position: relative;
+  margin:10px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li:nth-child(1):before{
+  content: "home";
+  position: absolute;
+  bottom: -20px;
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(-10px);
+  color: white;
+
+
+}
+
+nav ul li:nth-child(1):hover:before{
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+
+
+nav ul li:nth-child(1):hover{
+  background-color: #DD4A48;
+  border-radius: 50%;
+  color: white;
+  transform: translateY(-5px);
+  transition: transform 0.5s
+}
+
+
+nav ul li:nth-child(2):before{
+  content: "search";
+  position: absolute;
+  bottom: -20px;
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(-10px);
+  color: white;
+
+
+}
+
+nav ul li:nth-child(2):hover:before{
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+
+nav ul li:nth-child(2):hover{
+  background-color: #DD4A48;
+  border-radius: 50%;
+  color: white;
+  transform: translateY(-5px);
+  transition: transform 0.5s
+}
+
+nav ul li:nth-child(3):before{
+  content: "location";
+  position: absolute;
+  bottom: -20px;
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(-10px);
+  color: white;
+
+
+}
+
+nav ul li:nth-child(3):hover:before{
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+
+nav ul li:nth-child(3):hover{
+  background-color: #DD4A48;
+  border-radius: 50%;
+  color: white;
+  transform: translateY(-5px);
+  transition: transform 0.5s
+}
+
+nav ul li:nth-child(4):before{
+  content: "contact";
+  position: absolute;
+  bottom: -20px;
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(-10px);
+  color: white;
+
+}
+
+nav ul li:nth-child(4):hover:before{
+  opacity: 1;
+  transform: translateY(0px);
+
+}
+
+
+
+nav ul li:nth-child(4):hover{
+  background-color: #DD4A48;
+  border-radius: 50%;
+  color: white;
+  transform: translateY(-5px);
+  transition: transform 0.5s
+}
+
+nav li a{
+  color: white;
+}
